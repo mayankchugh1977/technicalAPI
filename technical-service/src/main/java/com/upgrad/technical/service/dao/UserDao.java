@@ -12,7 +12,7 @@ public class UserDao {
 
 
     //Write the annotation which handles entities holding data which are to be persisted in some persistence store like a database.
-    //
+    @PersistenceContext
     private EntityManager entityManager;
 
     public UserEntity createUser(UserEntity userEntity) {

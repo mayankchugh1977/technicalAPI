@@ -32,7 +32,7 @@ LAST_LOGIN_AT        TIMESTAMP (Null to make its default value as null)
 //Complete this class on the basis of above table schema
 
 //Write the annotation which defines that a class can be mapped to a Table
-//
+@Entity
 @Table(name = "USERS", schema = "imagehoster")
 public class UserEntity implements Serializable {
 
@@ -42,9 +42,9 @@ public class UserEntity implements Serializable {
     //This annotation has 4 attributes name, length, nullable and unique
     //In name attribute you can explicitly specify the name of the column
     //Here the name "ID" is explicitly specified
+    //Write an annotation which is used to generate a primary key and choose the generation strategy as GenerationType.IDENTITY
     @Id
     @Column(name = "ID")
-    //Write an annotation which is used to generate a primary key and choose the generation strategy as GenerationType.IDENTITY
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
@@ -53,6 +53,7 @@ public class UserEntity implements Serializable {
     private String uuid;
 
     //Write an annotation with its corresponding attribute to explicitly specify the column name as "ROLE"
+    @Column(name = "ROLE")
     private String role;
 
     @Column(name = "EMAIL")
@@ -69,7 +70,6 @@ public class UserEntity implements Serializable {
     @Column(name = "FIRST_NAME")
     @NotNull
     //The max attribute in @Size annotation specifies that the firstName can have maximum size of 200 characters
-    @Size(max = 200)
     @Size(max = 200)
     private String firstName;
 
@@ -97,6 +97,7 @@ public class UserEntity implements Serializable {
     private String salt;
 
     //After defining all the attributes with mentioned annotations generate getters and setters for all the attributes
+
 
     public long getId() {
         return id;

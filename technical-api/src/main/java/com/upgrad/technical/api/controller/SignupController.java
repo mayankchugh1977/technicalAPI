@@ -19,6 +19,8 @@ import java.util.UUID;
 //
 //Write the annotation to map the url request of type '/'
 //
+@RestController
+@RequestMapping("/")
 public class SignupController {
 
     @Autowired
