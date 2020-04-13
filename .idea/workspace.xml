@@ -4,13 +4,26 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed3f177-2b00-4cd4-a89a-4631b572d221" name="Default Changelist" comment="thirdcommit on branch Commit">
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/PasswordCryptographyProvider.java" afterDir="false" />
+    <list default="true" id="0ed3f177-2b00-4cd4-a89a-4631b572d221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/service/exception/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-api/src/main/resources/endpoints/authentication.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/AuthorizedUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-db/src/main/resources/sql/db-authenticate.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-db/target/classes/sql/db-authenticate.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/common/GenericErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/common/UnexpectedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/exception/AuthenticationFailedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/config/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/config/SwaggerConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/SignupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/SignupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiException.java" afterDir="false" />
@@ -18,10 +31,13 @@
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/technical-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/technical-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-db/src/main/resources/config/localhost.properties" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/src/main/resources/config/localhost.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-db/target/classes/config/localhost.properties" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/target/classes/config/localhost.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-db/target/technical-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/target/technical-db.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java" afterDir="false" />
@@ -80,7 +96,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aSrCYzxpkg9gTtk6hWX2Ss32RS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="flattenPackages" value="true" />
@@ -91,6 +109,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -102,7 +121,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535523379135" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/technical-api/src/main/resources/endpoints" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,7 +135,14 @@
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.upgrad.technical.service.exception" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Upgrad API\technical\technical-api\src\main\resources\endpoints" />
+      <recent name="D:\Upgrad API\technical\technical-api\src\main\java\com\upgrad\technical\service\exception" />
+      <recent name="D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\entity" />
+      <recent name="D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\common" />
       <recent name="D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\business" />
     </key>
   </component>
@@ -190,7 +216,8 @@
       <workItem from="1535695361454" duration="1511000" />
       <workItem from="1535970947681" duration="62000" />
       <workItem from="1537525694414" duration="601000" />
-      <workItem from="1586739711449" duration="10289000" />
+      <workItem from="1586739711449" duration="15300000" />
+      <workItem from="1586816709551" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1586743020398</created>
@@ -206,86 +233,94 @@
       <option name="project" value="LOCAL" />
       <updated>1586743408917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="thirdcommit on branch Commit">
+      <created>1586759234118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586759234118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="thirdcommit on branch Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="thirdcommit on branch Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1586759217296">
+    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1586774811704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1586759217296" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586746029035">
+    <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1586774811704" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586772746353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586746029035" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586759205727">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586772746353" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586759229690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205727" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586759229690" />
     <state width="397" height="466" key="DebuggerActiveHint" timestamp="1586747192880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="397" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586747192880" />
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1586759205764">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205764" />
-    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1586759205763">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205763" />
-    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1586759205763">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205763" />
-    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1586759205763">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205763" />
-    <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1586759205764">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205764" />
-    <state width="1877" height="339" key="GridCell.Tab.1.center" timestamp="1586759205764">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205764" />
-    <state width="1877" height="339" key="GridCell.Tab.1.left" timestamp="1586759205764">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205764" />
-    <state width="1877" height="339" key="GridCell.Tab.1.right" timestamp="1586759205764">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586759205764" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1586758917759">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1586816568717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586758917759" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1586758917759">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568717" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586758917759" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1586758917759">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1586816568701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586758917759" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1586758917759">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1586816568717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586758917759" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586743420499">
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568717" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586759268918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586743420499" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586759268918" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586741163401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,87 +331,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>48</line>
-          <properties field="id" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>52</line>
-          <properties field="uuid" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>56</line>
-          <properties field="role" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>61</line>
-          <properties field="email" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>67</line>
-          <properties field="password" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>73</line>
-          <properties field="firstName" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>78</line>
+          <line>85</line>
           <properties field="lastName" class="com.upgrad.technical.service.entity.UserEntity" />
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>86</line>
-          <properties field="mobilePhone" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>89</line>
-          <properties field="lastLoginAt" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>96</line>
-          <properties field="salt" class="com.upgrad.technical.service.entity.UserEntity" />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>101</line>
-          <properties class="com.upgrad.technical.service.entity.UserEntity" method="getId" />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>105</line>
-          <properties class="com.upgrad.technical.service.entity.UserEntity" method="setId" />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>109</line>
-          <properties class="com.upgrad.technical.service.entity.UserEntity" method="getUuid" />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java</url>
-          <line>113</line>
-          <properties class="com.upgrad.technical.service.entity.UserEntity" method="setUuid" />
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,12 @@
+D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\business\AuthenticationService.java
 D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\dao\UserDao.java
+D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\common\UnexpectedException.java
+D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\entity\UserAuthTokenEntity.java
+D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\exception\AuthenticationFailedException.java
 D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\ServiceConfiguration.java
 D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\entity\UserEntity.java
 D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\business\PasswordCryptographyProvider.java
 D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\business\SignupBusinessService.java
+D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\common\ErrorCode.java
+D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\common\GenericErrorCode.java
+D:\Upgrad API\technical\technical-service\src\main\java\com\upgrad\technical\service\business\JwtTokenProvider.java

@@ -34,6 +34,13 @@ LAST_LOGIN_AT        TIMESTAMP (Null to make its default value as null)
 //Write the annotation which defines that a class can be mapped to a Table
 @Entity
 @Table(name = "USERS", schema = "imagehoster")
+@NamedQueries(
+        {
+                @NamedQuery(name = "userByUuid", query = "select u from UserEntity u where u.uuid = :uuid"),
+                @NamedQuery(name = "userByEmail", query = "select u from UserEntity u where u.email =:email")
+        }
+)
+
 public class UserEntity implements Serializable {
 
     //Write the annotation which specifies that id attribute is a primary key
