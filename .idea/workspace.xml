@@ -34,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -45,6 +48,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aSrCYzxpkg9gTtk6hWX2Ss32RS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="flattenPackages" value="true" />
@@ -148,7 +152,7 @@
       <workItem from="1535695361454" duration="1511000" />
       <workItem from="1535970947681" duration="62000" />
       <workItem from="1537525694414" duration="601000" />
-      <workItem from="1586739711449" duration="2844000" />
+      <workItem from="1586739711449" duration="3287000" />
     </task>
     <servers />
   </component>
