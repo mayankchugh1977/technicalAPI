@@ -4,7 +4,12 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed3f177-2b00-4cd4-a89a-4631b572d221" name="Default Changelist" comment="" />
+    <list default="true" id="0ed3f177-2b00-4cd4-a89a-4631b572d221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -64,6 +74,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="userentity&#9;FILE&#9;file://E:/Trello_imagehoster/stubfiles/stub_1/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java&#10;signupc&#9;PSI&#9;JAVA://com.upgrad.technical.api.controller.SignupController&#10;application.ya&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Desktop/Trello/1/Assessment1/technical/technical-api/src/main/resources/application.yaml&#10;.jso&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Desktop/Trello/1/Assessment1/technical/technical-api/src/main/resources/endpoints/signup.json&#10;user&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Desktop/Trello/technical/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java&#10;App&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-api/src/main/resources/application.yaml&#10;userda&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java&#10;signupb&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java&#10;signupcontroller&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java&#10;swagger&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java&#10;signupbus&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java&#10;application&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/resources/application.yaml&#10;SignupController&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java&#10;signup.json&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/resources/endpoints/signup.json&#10;ServiceC&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/ServiceConfiguration.java&#10;Tech&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/TechnicalApiApplication.java&#10;SwaggerConfiguration&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java&#10;SignupC&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java&#10;UserD&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java&#10;db-signup&#9;FILE&#9;file://D:/technical1/technical/technical-db/src/main/resources/sql/db-signup.sql&#10;SignupBus&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java&#10;local&#9;FILE&#9;file://D:/technical1/technical/technical-db/src/main/resources/config/localhost.properties&#10;signup.js&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/resources/endpoints/signup.json&#10;Swagger&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java&#10;service&#9;PSI&#9;JAVA://com.upgrad.technical.service.ServiceConfiguration&#10;signup&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -152,18 +163,38 @@
       <workItem from="1535695361454" duration="1511000" />
       <workItem from="1535970947681" duration="62000" />
       <workItem from="1537525694414" duration="601000" />
-      <workItem from="1586739711449" duration="3287000" />
+      <workItem from="1586739711449" duration="3510000" />
     </task>
+    <task id="LOCAL-00001" summary="Second Commit">
+      <created>1586743020398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586743020398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586741438140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586741438140" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586743018885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586743018885" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586743024168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586743024168" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586741163401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
