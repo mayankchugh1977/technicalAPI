@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed3f177-2b00-4cd4-a89a-4631b572d221" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/service/exception/RestExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-api/src/main/resources/endpoints/authentication.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/AuthorizedUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-db/src/main/resources/sql/db-authenticate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-db/target/classes/sql/db-authenticate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/JwtTokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/common/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/common/GenericErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/common/UnexpectedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/exception/AuthenticationFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/exception/RestExceptionHandler.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/SignupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/SignupController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/service/exception/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/exception/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/AuthorizedUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/AuthorizedUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/ErrorResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiException.java" afterDir="false" />
@@ -31,21 +20,17 @@
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-api/target/technical-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/technical-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-db/target/technical-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/target/technical-db.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/PasswordCryptographyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/PasswordCryptographyProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/business/SignupBusinessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/business/SignupBusinessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/exception/AuthenticationFailedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/exception/AuthenticationFailedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical-service/target/technical-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/technical-service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +106,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535523379135" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/technical-api/src/main/resources/endpoints" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -217,7 +203,8 @@
       <workItem from="1535970947681" duration="62000" />
       <workItem from="1537525694414" duration="601000" />
       <workItem from="1586739711449" duration="15300000" />
-      <workItem from="1586816709551" duration="3215000" />
+      <workItem from="1586816709551" duration="3580000" />
+      <workItem from="1586901350524" duration="1763000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1586743020398</created>
@@ -240,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586759234118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fourth branch Commit">
+      <created>1586820009123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586820009123</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +244,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="thirdcommit on branch Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="thirdcommit on branch Commit" />
+    <MESSAGE value="fourth branch Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth branch Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1586774811704">
@@ -261,46 +256,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586772746353" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586759229690">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586820002161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586759229690" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586820002161" />
     <state width="397" height="466" key="DebuggerActiveHint" timestamp="1586747192880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="397" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586747192880" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1586820315747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315747" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1586820315746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315746" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1586820315745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315745" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1586820315746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315746" />
+    <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1586820315747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315747" />
+    <state width="1877" height="339" key="GridCell.Tab.1.center" timestamp="1586820315747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315747" />
+    <state width="1877" height="339" key="GridCell.Tab.1.left" timestamp="1586820315747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586816568701">
+    <state width="1877" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315747" />
+    <state width="1877" height="339" key="GridCell.Tab.1.right" timestamp="1586820315747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568701" />
+    <state width="1877" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586820315747" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1586816568717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,10 +312,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586816568717" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586759268918">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586820037420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586759268918" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586820037420" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1586902255832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586902255832" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586901731902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586901731902" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586741163401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
